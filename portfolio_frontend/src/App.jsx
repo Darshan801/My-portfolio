@@ -1,11 +1,16 @@
 import { useState } from 'react'
 import React  from 'react'
 import axios from 'axios'
-import Navbar from './Components/Navbar/navbar'
+import Navbar from './Components/Navbar/Navbar/Navbar'
+
 
 const App = () => {
   return (
-    <Navbar />
+   
+   <div>
+    <Navbar/>
+   </div>
+
   )
 }
 export default App
