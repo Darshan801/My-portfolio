@@ -7,6 +7,7 @@ import About from './Components/About/About.jsx'
 import Services from './Components/Services/Services.jsx'
 import Projects from './Components/Projects/Projects.jsx'
 import Contact from './Components/Contact/Contact.jsx'
+import Footer from './Components/Footer/Footer.jsx'
 
 
 
@@ -17,12 +18,13 @@ const App = () => {
     <Navbar/>
     <Hero/>
     <About/>
-    <hr />
     <Services/>
-    <hr />
+
     <Projects/>
-    <hr />
+
     <Contact/>
+
+    <Footer/>
    </div>
 
   )
