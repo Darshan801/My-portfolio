@@ -4,7 +4,7 @@ import right_arrow1 from '../../assets/right_arrow1.png'
 import mywork_data from "../../assets/mywork_data";
 const Projects = () => {
     return(
-        <div className="project">
+        <div id="projects" className="project">
             <div className="project-title">
                 <h1>My latest work</h1>
                 

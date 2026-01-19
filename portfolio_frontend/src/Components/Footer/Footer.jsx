@@ -19,7 +19,7 @@ const Footer = () => {
                     <div className="footer-subscribe">Subscribe</div>
                 </div>
             </div>
-            <hr />
+            <hr className="hr" />
             <div className="footer-bottom">
                 <p className="footer-bottom-left">
                     @ 2025 Darshan Kunwar . All rights reserved
@@ -31,6 +31,7 @@ const Footer = () => {
                 </div>
             </div>
         </div>
+
     )
 }
 export default Footer

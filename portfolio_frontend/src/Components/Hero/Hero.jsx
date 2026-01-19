@@ -1,10 +1,11 @@
 import React from "react";
 import './Hero.css'
 import img from '../../assets/img.JPG'
+import { Link } from "react-scroll";
 
 const Hero = () => {
     return (
-        <div className="hero">
+        <div id="home" className="hero">
             <div className="image">
                 <img className="img" src={img} alt="" />
             </div>
@@ -16,7 +17,7 @@ const Hero = () => {
 
                 </p>
                 <div className="hero-action">
-                    <div className="hero-connect">Connect with me</div>
+                    <div className="hero-connect"><Link to="contact" smooth={true}>Connect with me</Link></div>
                     <div className="hero-resume">My resume</div>
                 </div>
             </div>

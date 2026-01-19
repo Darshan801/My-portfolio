@@ -4,7 +4,7 @@ import Services_Data from '../../assets/services_data'
 import right_arrow1 from '../../assets/right_arrow1.png'
 const Services = () => {
     return(
-        <div className="services">
+        <div id="services" className="services">
             <div className="services-title">
                 <h1>My Services</h1>
             </div> 

@@ -4,12 +4,12 @@ import profile_img from '../../assets/profile_img.png'
 
 const About = () => {
     return (
-        <div className="about">
+        <div id="about" className="about">
             <div className="about-title">
                 <h1>About me</h1>
             </div>
             <div className="about-section">
-                <div className="about_left">
+                <div className="about-left">
                     <img src={profile_img} alt="loading..." />
                 </div>
                 <div className="about-right">
